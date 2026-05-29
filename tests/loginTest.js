@@ -1,4 +1,4 @@
-const { Builder, By, until } = require("selenium-webdriver");
+const { Builder } = require("selenium-webdriver");
 const assert = require("assert");
 
 describe("Google Test", function () {
@@ -10,11 +10,9 @@ describe("Google Test", function () {
     driver = await new Builder().forBrowser("chrome").build();
   });
 
-  it("Open Google and verify title", async function () {
+  it("Verify Google title", async function () {
     await driver.get("https://www.google.com");
-
     const title = await driver.getTitle();
-
     assert.strictEqual(title.includes("Google"), true);
   });
 

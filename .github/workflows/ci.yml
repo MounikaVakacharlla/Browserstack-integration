@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: browserstack-report
-          path: mochawesome-report/
+          path: test-results.json
           retention-days: 7
 
   deploy:

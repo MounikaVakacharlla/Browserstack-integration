@@ -1,0 +1,154 @@
+2026-05-29 19:54:50 - [32minfo[39m: Reading configs from D:\OneDrive\Documents\Browserstack-integration\Browserstack-integration\browserstack.yml
+2026-05-29 19:54:50 - [32minfo[39m: Log Directory has been set to D:\OneDrive\Documents\Browserstack-integration\Browserstack-integration\log
+2026-05-29 19:54:50 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe D:\OneDrive\Documents\Browserstack-integration\Browserstack-integration\node_modules\browserstack-node-sdk\src\bin\runner.js mocha tests/*.js --reporter json
+2026-05-29 19:54:50 - [32minfo[39m: SDK run started with id: 08470c2d-9017-428f-b9ef-0d75698bc272
+2026-05-29 19:54:50 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-05-29 19:54:52 - [31merror[39m: ACCESSIBILITY Build creation failed
+2026-05-29 19:54:52 - [32minfo[39m: Testhub started with id: ael3pmkkbnuyladcwum23s1rjqet8bbwwjgahx9d
+2026-05-29 19:54:52 - [32minfo[39m: Running your mocha tests across 2 platforms
+2026-05-29 19:54:52 - [32minfo[39m: Now, showing logs from mocha
+2026-05-29 19:54:52 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-05-29 19:54:55 - [32minfo[39m: Configuring to run tests on BrowserStack
+2026-05-29 19:54:55 - [32minfo[39m: Configuring to run tests on BrowserStack
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-05-29T14:24:55.431Z",
+    "end": "2026-05-29T14:25:03.983Z",
+    "duration": 8552
+  },
+  "tests": [
+    {
+      "title": "Verify Google title",
+      "fullTitle": "Google Test Verify Google title",
+      "file": "D:\\OneDrive\\Documents\\Browserstack-integration\\Browserstack-integration\\tests\\loginTest.js",
+      "duration": 1538,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify Google title",
+      "fullTitle": "Google Test Verify Google title",
+      "file": "D:\\OneDrive\\Documents\\Browserstack-integration\\Browserstack-integration\\tests\\loginTest.js",
+      "duration": 1538,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ]
+}{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-05-29T14:24:55.380Z",
+    "end": "2026-05-29T14:25:10.049Z",
+    "duration": 14669
+  },
+  "tests": [
+    {
+      "title": "Verify Google title",
+      "fullTitle": "Google Test Verify Google title",
+      "file": "D:\\OneDrive\\Documents\\Browserstack-integration\\Browserstack-integration\\tests\\loginTest.js",
+      "duration": 2071,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Verify Google title",
+      "fullTitle": "Google Test Verify Google title",
+      "file": "D:\\OneDrive\\Documents\\Browserstack-integration\\Browserstack-integration\\tests\\loginTest.js",
+      "duration": 2071,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ]
+}
+
+
+Total Platforms: 2
+Total Suites: 1
+Tests:       2 passed, 2 total
+{
+   "stats": {
+      "testSuites": 1,
+      "platforms": [
+         "Windows, 11, chrome, latest",
+         "Windows, 11, firefox, latest"
+      ],
+      "testsFailed": 0,
+      "testsPassed": 2,
+      "testsPending": 0
+   },
+   "Windows, 11, chrome, latest": {
+      "pending": [],
+      "failures": [],
+      "passes": [
+         {
+            "title": "Verify Google title",
+            "fullTitle": "Google Test Verify Google title",
+            "duration": 1538,
+            "currentRetry": 0,
+            "speed": "slow",
+            "err": {}
+         }
+      ],
+      "tests": [
+         {
+            "title": "Verify Google title",
+            "fullTitle": "Google Test Verify Google title",
+            "duration": 1538,
+            "currentRetry": 0,
+            "speed": "slow",
+            "err": {}
+         }
+      ]
+   },
+   "Windows, 11, firefox, latest": {
+      "pending": [],
+      "failures": [],
+      "passes": [
+         {
+            "title": "Verify Google title",
+            "fullTitle": "Google Test Verify Google title",
+            "duration": 2071,
+            "currentRetry": 0,
+            "speed": "slow",
+            "err": {}
+         }
+      ],
+      "tests": [
+         {
+            "title": "Verify Google title",
+            "fullTitle": "Google Test Verify Google title",
+            "duration": 2071,
+            "currentRetry": 0,
+            "speed": "slow",
+            "err": {}
+         }
+      ]
+   }
+}
+2026-05-29 19:55:13 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/4bff5825998ad43175114d791b433a9edec44f2f
+2026-05-29 19:55:14 - [32minfo[39m: SDK run ended for id: 08470c2d-9017-428f-b9ef-0d75698bc272, testhub id: ael3pmkkbnuyladcwum23s1rjqet8bbwwjgahx9d
+2026-05-29 19:55:15 - [32minfo[39m: Visit https://automation.browserstack.com/builds/ael3pmkkbnuyladcwum23s1rjqet8bbwwjgahx9d to view build report, insights, and many more debugging information all at one place!
+
+2026-05-29 19:55:15 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-05-29 19:55:15 - [32minfo[39m: key-metrics.json file not found, skipping processing for event for cli.

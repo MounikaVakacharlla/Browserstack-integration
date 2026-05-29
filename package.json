@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "browserstack-node-sdk mocha tests/*.js --reporter mochawesome --reporter-options reportDir=mochawesome-report,reportFilename=report,html=true,json=true"
-  },
+  "test": "browserstack-node-sdk mocha tests/*.js --reporter json > test-results.json"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MounikaVakacharlla/Browserstack-integration.git"
