@@ -1,0 +1,26 @@
+{
+  "name": "browserstack-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserstack-node-sdk mocha tests/*.js --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MounikaVakacharlla/Browserstack-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MounikaVakacharlla/Browserstack-integration/issues"
+  },
+  "homepage": "https://github.com/MounikaVakacharlla/Browserstack-integration#readme",
+  "dependencies": {
+    "browserstack-node-sdk": "^1.55.4",
+    "mochawesome": "^7.1.4",
+    "selenium-webdriver": "^4.44.0"
+  }
+}
