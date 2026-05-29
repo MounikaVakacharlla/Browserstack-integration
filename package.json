@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "test": "browserstack-node-sdk mocha tests/*.js --reporter mochawesome --reporter-options reportDir=mochawesome-report"
+    "test": "browserstack-node-sdk mocha tests/*.js --reporter mochawesome --reporter-options reportDir=mochawesome-report,reportFilename=report,html=true,json=true"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,10 @@
   "homepage": "https://github.com/MounikaVakacharlla/Browserstack-integration#readme",
   "dependencies": {
     "browserstack-node-sdk": "^1.55.4",
-    "mochawesome": "^7.1.4",
     "selenium-webdriver": "^4.44.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.4",
+    "mochawesome-report-generator": "^6.3.2"
   }
 }
